@@ -1,0 +1,17 @@
+{
+    "name": "push-websocket-chat",
+    "version": "1.0.0",
+    "description": "Lab de Push com WebSocket: chat + progresso de job empurrado pelo servidor",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "client": "node cli-client.js"
+    },
+    "engines": {
+      "node": ">=22"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "ws": "^8.22.0"
+    }
+  }
